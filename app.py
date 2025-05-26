@@ -2,10 +2,6 @@ import streamlit as st
 from ultralytics import YOLO
 import cv2
 import time
-from model_loader import download_model
-
-# Download Model
-download_model()
 
 # Page configuration
 st.set_page_config(page_title="Real-Time Spitting Detection", layout="wide")
